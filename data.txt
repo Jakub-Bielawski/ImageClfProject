@@ -1,0 +1,65 @@
+,CLF,Batch_size,NB_WORDS,train_scores,test_scores
+0,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",64,20,0.635064935064935,0.660377358490566
+1,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",64,50,0.7181818181818181,0.7924528301886793
+2,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",64,100,0.7757575757575758,0.8490566037735849
+3,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",64,200,0.8233766233766234,0.8867924528301887
+4,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",64,500,0.8134199134199134,0.8490566037735849
+5,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",64,700,0.8597402597402597,0.8490566037735849
+6,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",64,1000,0.7658008658008658,0.7924528301886793
+7,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",64,1500,0.7848484848484848,0.8867924528301887
+8,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",64,2000,0.8597402597402597,0.9245283018867925
+9,"Pipeline(steps=[('scaler', MinMaxScaler()),
+                ('linSVC', LinearSVC(C=7, loss='hinge'))])",128,20,0.6363636363636364,0.660377358490566
+10,"Pipeline(steps=[('scaler', MinMaxScaler()),
+                ('linSVC', LinearSVC(C=1, loss='hinge'))])",128,50,0.7761904761904762,0.7924528301886793
+11,"Pipeline(steps=[('scaler', MinMaxScaler()),
+                ('linSVC', LinearSVC(C=13, loss='hinge'))])",128,100,0.7948051948051948,0.7924528301886793
+12,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",128,200,0.841125541125541,0.8867924528301887
+13,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",128,500,0.8792207792207792,0.8867924528301887
+14,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",128,700,0.8497835497835498,0.9245283018867925
+15,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",128,1000,0.8311688311688312,0.8679245283018868
+16,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",128,1500,0.8415584415584416,0.8679245283018868
+17,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",128,2000,0.8329004329004329,0.9245283018867925
+18,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=14))])",256,20,0.6554112554112553,0.6981132075471698
+19,"Pipeline(steps=[('scaler', MinMaxScaler()),
+                ('linSVC', LinearSVC(C=1, loss='hinge'))])",256,50,0.7480519480519481,0.7735849056603774
+20,"Pipeline(steps=[('scaler', MinMaxScaler()),
+                ('linSVC', LinearSVC(C=1, loss='hinge'))])",256,100,0.8497835497835498,0.8113207547169812
+21,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",256,200,0.8038961038961039,0.8679245283018868
+22,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",256,500,0.8502164502164502,0.8679245283018868
+23,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",256,700,0.8779220779220779,0.8867924528301887
+24,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",256,1000,0.84978354978355,0.8490566037735849
+25,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",256,1500,0.8316017316017316,0.8679245283018868
+26,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",256,2000,0.8692640692640692,0.9245283018867925
+27,"Pipeline(steps=[('scaler', MinMaxScaler()),
+                ('linSVC', LinearSVC(C=7, loss='hinge'))])",512,20,0.5705627705627705,0.7358490566037735
+28,"Pipeline(steps=[('scaler', MinMaxScaler()),
+                ('linSVC', LinearSVC(C=1, loss='hinge'))])",512,50,0.7303030303030302,0.8113207547169812
+29,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",512,100,0.8129870129870131,0.8490566037735849
+30,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",512,200,0.8320346320346321,0.8867924528301887
+31,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",512,500,0.8134199134199134,0.8867924528301887
+32,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",512,700,0.8497835497835498,0.9056603773584906
+33,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",512,1000,0.841125541125541,0.9056603773584906
+34,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",512,1500,0.8229437229437229,0.9056603773584906
+35,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",512,2000,0.841125541125541,0.8679245283018868
+36,"Pipeline(steps=[('scaler', MinMaxScaler()),
+                ('linSVC', LinearSVC(C=7, loss='hinge'))])",1024,20,0.6264069264069264,0.7735849056603774
+37,"Pipeline(steps=[('scaler', MinMaxScaler()),
+                ('linSVC', LinearSVC(C=1, loss='hinge'))])",1024,50,0.7857142857142858,0.8113207547169812
+38,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",1024,100,0.7948051948051947,0.8301886792452831
+39,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",1024,200,0.7948051948051948,0.8113207547169812
+40,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",1024,500,0.8601731601731603,0.8867924528301887
+41,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",1024,700,0.8692640692640692,0.8867924528301887
+42,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",1024,1000,0.8493506493506494,0.9056603773584906
+43,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",1024,1500,0.8134199134199134,0.8867924528301887
+44,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",1024,2000,0.8320346320346321,0.8867924528301887
+45,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=13))])",2048,20,0.5792207792207791,0.6415094339622641
+46,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",2048,50,0.7290043290043291,0.8679245283018868
+47,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",2048,100,0.8051948051948052,0.8301886792452831
+48,"Pipeline(steps=[('scaler', MinMaxScaler()),
+                ('linSVC', LinearSVC(C=1, loss='hinge'))])",2048,200,0.861038961038961,0.8490566037735849
+49,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",2048,500,0.8688311688311687,0.8867924528301887
+50,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",2048,700,0.8783549783549784,0.9056603773584906
+51,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",2048,1000,0.8229437229437229,0.9433962264150944
+52,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=0.1))])",2048,1500,0.8402597402597403,0.9056603773584906
+53,"Pipeline(steps=[('scaler', MinMaxScaler()), ('linSVC', LinearSVC(C=7))])",2048,2000,0.8783549783549784,0.8679245283018868
