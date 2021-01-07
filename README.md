@@ -1,4 +1,4 @@
-# Project Name
+# Image classification of buildings in Poznan
 > This is a project for Advanced image processing course on PUT.
 > It is an image classification using BoVW model ( Bag of Visual Words)
 ## Table of contents
