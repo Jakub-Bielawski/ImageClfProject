@@ -3,7 +3,7 @@
 > It is an image classification using BoVW model ( Bag of Visual Words)
 ## Table of contents
 * [General info](#general-info)
-* [Based on](#Based on)
+* [Based on](#Based-on)
 * [Images used to train](@Images)
 * [Setup](#setup)
 * [Features](#features)
